@@ -199,7 +199,7 @@ console.log(cleanPhoneNumber(userPhoneNumber));
        arrayOfAllTheThings = ["one", 23, {thingsWhalesLove: "beaches"}, "six hundred", 33, 6834, "5,435"]
 
 
-function isNAN(testValue) {
+function isNaN(testValue) {
   return Number.isNaN(Number(testValue));
 }
 
@@ -208,7 +208,7 @@ function isNumber(dataArray) {
 
     var element = dataArray[i];
 
-    if(isNAN(element)) {
+    if(isNaN(element)) {
       console.log(element + ' is not a number')
     } else {
       console.log(element + ' is a number')
